@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { Transforms, Editor, Range, Text, Point, Element as SlateElement, Path, BaseEditor } from "slate"
 import { SyntaxPlugin } from "./plugins/base-plugin";
 import { ItalicSyntax } from "./plugins/italic-plugin";

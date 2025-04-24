@@ -1,7 +1,7 @@
 import { type BaseEditor, Element as SlateElement } from "slate";
 import { SyntaxPlugin, type BasicProps } from "./base-plugin";
 
-const DEFAULT_CODEBLOCK_NAME = 'code_block' as const
+export const DEFAULT_CODEBLOCK_NAME = 'code_block' as const
 export class CodeblockSyntax<T extends BaseEditor> extends SyntaxPlugin<T> {
     constructor(opt: BasicProps = {}) {
         super({

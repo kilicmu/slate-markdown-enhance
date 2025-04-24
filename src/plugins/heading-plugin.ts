@@ -1,7 +1,7 @@
 import { type BaseEditor } from "slate";
 import { SyntaxPlugin, type BasicProps } from "./base-plugin";
 
-const DEFAULT_HEADING_ONE_NAME = 'heading_one' as const
+export const DEFAULT_HEADING_ONE_NAME = 'heading_one' as const
 export class HeadingOne<T extends BaseEditor> extends SyntaxPlugin<T> {
     constructor(opt: BasicProps = {}) {
         super({

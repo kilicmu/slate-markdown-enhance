@@ -24,7 +24,7 @@ export class ImageSyntax<T extends BaseEditor> extends SyntaxPlugin<T> {
         return {
             // @ts-ignore
             type: this.name,
-            isInitial: !!url,
+            isInitial: !url,
             link: url,
             alt,
         }

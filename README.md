@@ -2,6 +2,8 @@
 
 A powerful plugin system for [Slate](https://github.com/ianstormtaylor/slate) editor that enhances it with real-time markdown syntax support.
 
+Its Supports [penmuse](https://penmuse.app) document editor.
+
 ## Features
 
 - **Live Markdown Conversion**: Convert markdown syntax to formatted content as you type
